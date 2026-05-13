@@ -1,22 +1,25 @@
-#firstName =  input("Enter your fistname")
-#lastName = input("Enter your lastname")
+# Function with parameters and return value
+def add(a, b):
+    return a + b # returning the sum of a and b
+result = add(10, 20) # calling the function and storing the result in a variable
 
-a = "10"
-b = "20"
-print (int(a) + int(b))
+#print("The sum is:", result) # printing the result
 
-#this is my first program
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
+#function  parameters and without return value
+# def display(a, b):
+#     print("The value of a is:", a)
+#     print("The value of b is:", b)
+# display(result, 20)
 
-if 5 > 2:
-  print("Five is greater than two!")
+def checkStringLength(text):
+  count = 0
+  for i in text:
+      count = count + 1
+  return count
 
-# if(firstName == "subi"):
-#     print(" My name exists")
-#     print(firstName + " "+ lastName)
-# else:
-#     print("my name not exists")
+text = "Hello"
 
+result = checkStringLength(text)
 
+print(result)
+print(len(text))
