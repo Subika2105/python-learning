@@ -25,3 +25,23 @@ if"goat" in animals:
     print("present")
 else:
     print("absent")
+
+#important list methods
+fruits=["apple","banana","mango"]
+fruits.append("grapes")
+print(fruits)
+fruits.remove(fruits[2])
+print(fruits)
+fruits.insert(1,"orange")
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+
+
+
+
+       

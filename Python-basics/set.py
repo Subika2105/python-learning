@@ -22,3 +22,13 @@ if 9 in my_set:
     print("present")
 else:
     print("absent")
+#loop through the set
+my_set={1,2,3,4,5}
+for i in my_set:
+    print(i)
+#length of the set
+my_set={"hello"}
+print(len(my_set))
+
+
+
