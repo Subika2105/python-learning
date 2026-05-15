@@ -39,7 +39,7 @@ print(fruits)
 fruits.sort()
 print(fruits)
 fruits.reverse()
-print(fruits)
+print(fruits) 
 
 
 
